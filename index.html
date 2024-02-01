@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Jmal's Bakery</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+    <header>
+        <h1 class="centered"> Jmal's Bakery</h1>
+        <hr />
+    </header>
+    <h2 id="cake-count" class="centered">cupcakes: 0</h2>
+    <br />
+    <h4 id="bagel-count" class="centered">Bagels: 0</h4>
+    <h4 id="money-count" class="centered">Money: $0</h4>
+    <img src="https://i.pinimg.com/originals/60/1d/00/601d00c9fdd320ae7fe23cd4aa9418f3.png" alt="cupcake" id="cakey" onclick="makeCake()"/>
+    <div id="customers">
+        <h3>customers:</h3><br />
+    </div>
+    <div id="upgrades-section">
+        <h3>Upgrades:</h3>
+        <button onclick="makeNormalBagel()" id="bagel-button">make bagel<br />5000 cupcakes</button>
+        <br />
+    </div>
+    <div id="extra-buttons">
+        <button id="oven-upgrader" onclick="updateOven()"></button>
+        <br />
+        <button id="cringe-baby" onclick="selfDestruct()">Die Die Die!!!!</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

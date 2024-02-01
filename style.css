@@ -1,0 +1,61 @@
+﻿* {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+.centered {
+    text-align: center; 
+}
+#cakey {
+    position: relative;
+    bottom: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(0.5);
+    padding: 0;
+    filter: grayscale(100%);
+}
+    #cakey:hover {
+        color: blue;
+        filter: none;
+    }
+#customers {
+    float: right;
+    position: relative;
+    bottom: 1230px;
+    width: 300px;
+}
+button {
+    background-color: lemonchiffon;
+    color: dodgerblue;
+    width: 150px;
+    height: 75px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+button:hover {
+    background-color: lightpink;
+}
+#upgrades-section {
+    position: relative;
+    bottom: 1230px;
+    left: 100px;
+    width: 300px;
+}
+#bagel-count{
+    visibility: hidden;
+}
+#bagel-button {
+    visibility: hidden;
+}
+#extra-buttons {
+    position: absolute;
+    top: 600px;
+    left: 100px;
+}
+#oven-upgrader {
+    visibility: hidden;
+}
